@@ -14,15 +14,15 @@ function updateclock() {
   }
   if (h < 10) {
     h = "0" + h;
-  } else h = h;
+  }
   if (m < 10) {
     m = "0" + m;
-  } else m = m;
+  }
   if (s < 10) {
     s = "0" + s;
-  } else s = s;
+  } 
 
-  
+
   hours.innerText = h;
   minutes.innerText = m;
   seconds.innerText = s;
