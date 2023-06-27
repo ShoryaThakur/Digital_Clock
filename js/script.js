@@ -20,8 +20,7 @@ function updateclock() {
   }
   if (s < 10) {
     s = "0" + s;
-  } 
-
+  }
 
   hours.innerText = h;
   minutes.innerText = m;
